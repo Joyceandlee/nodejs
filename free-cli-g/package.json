@@ -1,0 +1,32 @@
+{
+  "name": "free-cli-g",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "free-cli-g": "./bin/index.js"
+  },
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/joyceandlee/mvvms.git",
+    "email": "joyceandlee1104@163.com"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "contributors": [
+    {
+      "email": "joyceandlee1104@163.com",
+      "name": "joyceandlee"
+    }
+  ],
+  "author": "up",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "inquirer": "^6.5.0",
+    "my-follow-cli": "0.0.4"
+  }
+}
